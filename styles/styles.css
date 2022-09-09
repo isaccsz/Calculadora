@@ -85,3 +85,12 @@ footer{
     text-align: center;
     border-top: 1px solid black;
 }
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: white;
+    transition: .3s all;
+}
