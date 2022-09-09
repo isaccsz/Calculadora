@@ -29,3 +29,8 @@ function turnOff(){
         document.getElementById('off').innerHTML = 'OFF'
     }
 }
+
+function delNumero(){
+    let numero = document.getElementById('field').innerHTML;
+    document.getElementById('field').innerHTML = numero.substring(0, numero.length-1);
+}
