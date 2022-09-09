@@ -18,7 +18,9 @@ body{
 main{
     margin: 0 auto;
     width: 30%;
+    min-width: 200px;
     height: 70%;
+    min-height: 390px;
     background-color: rgba(204, 204, 204, .3);
     position: relative;
     box-shadow: -1px -1px 1px rgb(47, 47, 47),

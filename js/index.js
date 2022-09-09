@@ -21,7 +21,8 @@ function turnOff(){
     let fundo = document.getElementById('field');
 
     if(fundo.style.background == 'white'){
-        fundo.style.background = 'black';
+        fundo.style.background = 'rgba(204, 204, 204, 0.3)';
+        limparNumero();
         document.getElementById('off').innerHTML = 'ON'
     }else{
         fundo.style.background = 'white'
