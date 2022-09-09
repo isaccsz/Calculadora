@@ -13,4 +13,5 @@ function inserirCalculo(){
     if(resultado!=0){
         document.getElementById('field').innerHTML = eval(resultado);
     }
+    
 }
