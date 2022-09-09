@@ -6,3 +6,11 @@ function inserirNumero(num){
 function limparNumero(){
     document.getElementById('field').innerHTML = '';
 }
+
+function inserirCalculo(){
+    let resultado = document.getElementById('field').innerHTML;
+
+    if(resultado!=0){
+        document.getElementById('field').innerHTML = eval(resultado);
+    }
+}
