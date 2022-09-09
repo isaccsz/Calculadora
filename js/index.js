@@ -8,6 +8,7 @@ function limparNumero(){
 }
 
 function inserirCalculo(){
+
     let resultado = document.getElementById('field').innerHTML;
 
     if(resultado!=0){
